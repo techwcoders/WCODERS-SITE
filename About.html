@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            overflow-x: auto;
+            margin-top: 20px;
+            padding: 0 10px;
+        }
+
+        .card {
+            flex: 0 0 auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-right: 10px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .title {
+            color: grey;
+            font-size: 18px;
+        }
+
+        .contact-button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+
+        .contact-button:hover {
+            opacity: 0.7;
+        }
+
+        .fa {
+            text-decoration: none;
+            font-size: 22px;
+            color: black;
+        }
+        /* Hide scrollbar but allow scrolling */
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow-x: auto;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+@media (max-width:500px) {
+    .container{
+    display:flex;
+    flex-wrap: wrap;
+}
+    
+}
+
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>ABOUT US</h1>
+    
+    <div class="container">
+        <div class="card">
+            <img src="img.jpg" alt="Saswat Ranjan Tripathy">
+            <h1>Saswat Ranjan Tripathy</h1>
+            <p class="title">Team Lead</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <p><button class="contact-button">Contact</button></p>
+        </div>
+
+        <div class="card">
+            <img src="img.jpg" alt="Srikant Snehit Panda">
+            <h1>Srikant Snehit Panda</h1>
+            <p class="title">Team Member</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <p><button class="contact-button">Contact</button></p>
+        </div>
+
+        <div class="card">
+            <img src="img.jpg" alt="Devmalya Kalamuri">
+            <h1>Devmalya Kalamuri</h1>
+            <p class="title">&nbsp;</p>
+            <p class="title">Team Member</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <p><button class="contact-button">Contact</button></p>
+        </div>
+
+        <div class="card">
+            <img src="img.jpg" alt="Biswesh Maharana">
+            <h1>Biswesh Maharana</h1>
+            <p class="title">&nbsp;</p>
+            <p class="title">Team Member</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <p><button class="contact-button">Contact</button></p>
+        </div>
+
+        <div class="card">
+            <img src="img.jpg" alt="Biswesh Maharana">
+            <h1>Rohit Agarwal</h1>
+            <p class="title">&nbsp;</p>
+            <p class="title">Team Member</p>
+            <i class="fa-brands fa-linkedin"></i>
+            <p><button class="contact-button">Contact</button></p>
+        </div>
+    
+   
+</div>
+</body>
+</html>
